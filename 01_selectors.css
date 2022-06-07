@@ -1,5 +1,5 @@
 body {
-    color: rgb(218, 199, 174)
+    color: rgb(160, 126, 126)
 }
 
 
@@ -84,7 +84,7 @@ body {
     display: block;
     padding: 12px 24px;
   
-    color: rgb(173, 143, 143);
+    color: rgb(158, 130, 141);
   
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -98,7 +98,9 @@ body {
     background-color: #CFD8DC;
   }
   
-  
+  .fore {
+    -webkit-text-stroke: #ECEFF1;
+  }
   img {
     max-width:100%;
     height:auto;
@@ -120,10 +122,14 @@ body {
   position: absolute;
   right: 50px;
   top: 100px;
+
 }
   .two {
     color: azure;
   }
   .free {
+    color: azure;
+  }
+  .fore{
     color: azure;
   }
